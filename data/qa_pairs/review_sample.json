@@ -1,0 +1,272 @@
+[
+  {
+    "question": "What core areas does the Companies Act, 2013 address under the chapter concerning \"Management and Administration\"?",
+    "answer": "Chapter VII of the Companies Act, 2013, titled \"Management and Administration,\" covers essential operational aspects of a company. It includes provisions for maintaining various registers, such as the register of members and of significant beneficial owners. This chapter also details regulations for annual returns, conducting general meetings—including annual general meetings and extraordinary general meetings—and specifies rules for voting, proxies, and resolutions. Furthermore, it outlines requirements for recording minutes of meetings and defines the applicability to One Person Companies.",
+    "question_type": "factual",
+    "section_reference": "Chapter VII",
+    "source_document": "companies_act_2013",
+    "chunk_number": 1,
+    "review_index": 0,
+    "status": "PENDING"
+  },
+  {
+    "question": "How do the general meeting and board meeting procedures for a One Person Company (OPC) differ from those of other companies under the Companies Act, 2013?",
+    "answer": "For a One Person Company (OPC), certain provisions related to general meetings, specifically sections 98 and 100 to 111, do not apply. Instead of conducting formal general meetings for ordinary or special resolutions, it is sufficient for the single member to simply communicate the resolution to the company. This resolution must then be recorded in the minutes-book, signed, and dated by the member, with that date being considered the date of the meeting for all purposes. Similarly, if an OPC has only one director on its Board, any business requiring a Board resolution can be transacted by the director entering the resolution in the minutes-book, signing, and dating it, which will then be deemed the date of the Board meeting. Reference Section 122 of the Companies Act, 2013.",
+    "question_type": "comparative",
+    "section_reference": "Section 122",
+    "source_document": "companies_act_2013",
+    "chunk_number": 17,
+    "review_index": 33,
+    "status": "PENDING"
+  },
+  {
+    "question": "What are the specific conditions under which the Registrar of Companies may initiate the removal of a company's name from the register?",
+    "answer": "The Registrar of Companies can initiate the removal of a company's name if they have reasonable cause to believe certain conditions are met. These include if a company has failed to commence its business within one year of incorporation, or if it has not carried on any business or operation for two immediately preceding financial years without obtaining dormant company status. Other grounds include non-payment of subscription money by initial subscribers within 180 days, or if physical verification reveals the company is not operating. Upon determining these conditions, the Registrar will send a notice to the company and its directors. This is covered under Section 248(1) of the Companies Act, 2013.",
+    "question_type": "factual",
+    "section_reference": "Section 248(1)",
+    "source_document": "companies_act_2013",
+    "chunk_number": 36,
+    "review_index": 66,
+    "status": "PENDING"
+  },
+  {
+    "question": "What is the general applicability threshold for factories under the ESI Act, 1948?",
+    "answer": "The ESI Act, 1948 generally applies to factories employing 10 or more persons. However, the \"Appropriate Government\" has the power to extend these provisions to various other classes of establishments like shops, hotels, and educational or medical institutions. Many State Governments/Union Territories have also reduced the threshold for coverage of shops and establishments to 10 or more persons. Reference Section 1 (i) of the Standard Note on ESI Scheme.",
+    "question_type": "factual",
+    "section_reference": "Section 1 (i)",
+    "source_document": "esi_act_1948",
+    "chunk_number": 1,
+    "review_index": 100,
+    "status": "PENDING"
+  },
+  {
+    "question": "How do the projected Insured Person (IP) population criteria for setting up new ESI hospitals differ from those for establishing new ESI dispensaries?",
+    "answer": "The criteria for establishing new ESI hospitals are based on the projected futuristic number of Insured Persons (IPs) over an upcoming period of five years. In contrast, for setting up new ESI dispensaries, the projection for the number of IPs is considered for a shorter duration of three years. This indicates a longer-term planning horizon for hospital infrastructure compared to dispensaries. Reference Section 28, point i of the Act.",
+    "question_type": "comparative",
+    "section_reference": "Section 28, point i",
+    "source_document": "esi_act_1948",
+    "chunk_number": 4,
+    "review_index": 126,
+    "status": "PENDING"
+  },
+  {
+    "question": "What are the minimum employee requirements and the wage limit for an establishment to be covered under the ESI Act, 1948?",
+    "answer": "The ESI Act, 1948, typically applies to factories that employ 10 or more individuals. For other establishments like shops, hotels, restaurants, and road transport undertakings, the scheme extends if they have 10 or more coverable employees. As of January 1, 2017, the existing wage-limit for coverage under the Act is Rs. 21,000 per month, with a higher limit of Rs. 25,000 per month for persons with disability. Reference: Annexure-I(A) I. (A) of the Act.",
+    "question_type": "factual",
+    "section_reference": "Annexure-I(A) I. (A)",
+    "source_document": "esi_act_1948",
+    "chunk_number": 8,
+    "review_index": 152,
+    "status": "PENDING"
+  },
+  {
+    "question": "What is the primary objective of the Industrial Disputes Act, 1947?",
+    "answer": "The main purpose of the Industrial Disputes Act, 1947, is to provide a legal framework for the investigation and peaceful settlement of industrial disputes. It also aims to address other related matters to ensure industrial harmony. This objective is clearly stated in the Preamble of the Act.",
+    "question_type": "factual",
+    "section_reference": "Preamble",
+    "source_document": "industrial_disputes_act_1947",
+    "chunk_number": 1,
+    "review_index": 180,
+    "status": "PENDING"
+  },
+  {
+    "question": "What specific powers do Labour Courts, Tribunals, and National Tribunals have when adjudicating a matter of discharge or dismissal of a workman?",
+    "answer": "When adjudicating a dispute regarding a workman's discharge or dismissal, if these authorities find the order unjustified, they possess broad powers. They can set aside the dismissal order, direct reinstatement of the workman on suitable terms, or grant other appropriate relief, including imposing a lesser punishment. Importantly, they are required to base their decision solely on the existing materials on record and cannot introduce fresh evidence. Reference Section 11A of the Act.",
+    "question_type": "factual",
+    "section_reference": "Section 11A",
+    "source_document": "industrial_disputes_act_1947",
+    "chunk_number": 3,
+    "review_index": 206,
+    "status": "PENDING"
+  },
+  {
+    "question": "Under what specific circumstances can an employer lay off workmen in an establishment covered by Chapter VB without obtaining prior permission from the appropriate Government?",
+    "answer": "An employer in an establishment covered by Chapter VB may lay off workmen (excluding badli or casual workmen) without prior government permission if the lay-off is due to a shortage of power or a natural calamity. In the specific case of a mine, lay-off without prior permission is also permissible if caused by fire, flood, excess of inflammable gas, or an explosion. However, for mines, an application to continue the lay-off must be made within thirty days. Reference Section 25M(1) and (3) of the Act.",
+    "question_type": "factual",
+    "section_reference": "Section 25M(1)",
+    "source_document": "industrial_disputes_act_1947",
+    "chunk_number": 6,
+    "review_index": 232,
+    "status": "PENDING"
+  },
+  {
+    "question": "What is the territorial extent of the Minimum Wages Act, 1948?",
+    "answer": "The Minimum Wages Act, 1948, extends to the whole of India. This means its provisions are applicable across all states and union territories, ensuring a nationwide framework for minimum wage fixation in scheduled employments. (Section 1)",
+    "question_type": "factual",
+    "section_reference": "Section 1",
+    "source_document": "minimum_wages_act_1948",
+    "chunk_number": 1,
+    "review_index": 260,
+    "status": "PENDING"
+  },
+  {
+    "question": "How does the composition of committees and advisory boards in Madhya Pradesh specifically differ from the general provisions outlined in Section 9 of the Minimum Wages Act, 1948?",
+    "answer": "While Section 9 generally specifies representation from employers, employees (equal in number), and independent persons, the Madhya Pradesh amendment introduces a distinction. In Madhya Pradesh, 'independent persons' can explicitly include government officers, with a proviso stating that the number of such officers shall not exceed two. It also clarifies who is considered a 'person representing employer' or 'employee', expanding beyond just the individual to include officers of associations or federations.",
+    "question_type": "comparative",
+    "section_reference": "Section 9 and Madhya Pradesh State Amendment to Section 9",
+    "source_document": "minimum_wages_act_1948",
+    "chunk_number": 2,
+    "review_index": 283,
+    "status": "PENDING"
+  },
+  {
+    "question": "What penalties does an employer face for paying less than the minimum wage or contravening rules under Section 13?",
+    "answer": "An employer who pays an employee less than the fixed minimum wage or the amount due under the Act, or contravenes any rule or order made under Section 13, is punishable. The penalty can be imprisonment for a term up to six months, or a fine up to five hundred rupees, or both. Courts are instructed to consider any previously awarded compensation under Section 20 when imposing a fine. Reference Section 22 of the Act.",
+    "question_type": "factual",
+    "section_reference": "Section 22",
+    "source_document": "minimum_wages_act_1948",
+    "chunk_number": 4,
+    "review_index": 306,
+    "status": "PENDING"
+  },
+  {
+    "question": "What is the maximum monthly wage an employee can earn for the Payment of Wages Act, 1936, to apply to them?",
+    "answer": "The Act applies to wages payable to an employed person if their wages for that wage period do not exceed twenty-four thousand rupees per month. The Central Government may, however, specify a different higher sum every five years based on the Consumer Expenditure Survey. This ensures the Act remains relevant to the economic conditions over time. Reference Section 1(6) of the Act.",
+    "question_type": "factual",
+    "section_reference": "Section 1(6)",
+    "source_document": "payment_of_wages_act_1936",
+    "chunk_number": 1,
+    "review_index": 330,
+    "status": "PENDING"
+  },
+  {
+    "question": "What process must an employer follow before imposing a fine on an employee?",
+    "answer": "Before imposing a fine, the employer must have previously specified the acts or omissions for which fines can be levied, with the approval of the appropriate Government or prescribed authority, and displayed this notice on the premises. Crucially, the employed person must be given an opportunity to show cause against the proposed fine, and the imposition must follow a prescribed procedure. These steps ensure fairness and transparency in disciplinary actions. Reference Section 8(1), 8(2), and 8(3) of the Act.",
+    "question_type": "procedural",
+    "section_reference": "Section 8(1), 8(2), 8(3)",
+    "source_document": "payment_of_wages_act_1936",
+    "chunk_number": 2,
+    "review_index": 350,
+    "status": "PENDING"
+  },
+  {
+    "question": "What specific requirement must an employer fulfill before an appeal against a wage order can be heard by the appellate court under this Act?",
+    "answer": "An appeal preferred by an employer under Section 17(1)(a) is conditional. The memorandum of appeal must be accompanied by a certificate from the authority that made the original direction. This certificate must confirm that the appellant employer has deposited the full amount payable under the direction against which the appeal is being filed. This ensures a commitment from the employer before the appeal proceeds. Reference Section 17(1A) of the Act.",
+    "question_type": "factual",
+    "section_reference": "Section 17(1A)",
+    "source_document": "payment_of_wages_act_1936",
+    "chunk_number": 3,
+    "review_index": 370,
+    "status": "PENDING"
+  },
+  {
+    "question": "What is the primary objective of the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013?",
+    "answer": "The core objective of the Act is to provide protection for women against sexual harassment at their workplaces. It aims to prevent such incidents from occurring and establishes a clear mechanism for the redressal of complaints when they do. This ensures a safe and dignified working environment for women across India. Reference Preamble of the Act.",
+    "question_type": "factual",
+    "section_reference": "Preamble",
+    "source_document": "posh_act_2013",
+    "chunk_number": 1,
+    "review_index": 390,
+    "status": "PENDING"
+  },
+  {
+    "question": "Who is ultimately responsible for monitoring the implementation of the POSH Act and maintaining data related to its enforcement?",
+    "answer": "The Appropriate Government bears the ultimate responsibility for ensuring the proper implementation of the POSH Act within its jurisdiction. This includes actively monitoring the enforcement of its provisions and maintaining relevant data. This oversight is crucial to gauge the Act's effectiveness in preventing and redressing sexual harassment. Reference Section 23 of the Act.",
+    "question_type": "factual",
+    "section_reference": "Section 23",
+    "source_document": "posh_act_2013",
+    "chunk_number": 1,
+    "review_index": 408,
+    "status": "PENDING"
+  },
+  {
+    "question": "How does the Act differentiate between a mere inability to substantiate a complaint and a malicious complaint when considering action against the complainant?",
+    "answer": "The Act explicitly states that a mere inability of a complainant to substantiate their complaint or provide adequate proof should not automatically lead to action against them. However, if the Internal Committee concludes that the allegation is malicious, or the complaint was made knowingly to be false, or forged documents were produced, then action can be recommended against the complainant, but only after an inquiry establishes malicious intent. Reference Section 14(1) and its first proviso of the Act.",
+    "question_type": "comparative",
+    "section_reference": "Section 14(1) and its proviso",
+    "source_document": "posh_act_2013",
+    "chunk_number": 2,
+    "review_index": 426,
+    "status": "PENDING"
+  },
+  {
+    "question": "What is the primary objective of the Payment of Gratuity Act, 1972?",
+    "answer": "The main objective of the Payment of Gratuity Act, 1972 is to establish a uniform scheme for the payment of gratuity to employees. This benefit is provided to employees engaged in various establishments such as factories, mines, plantations, and shops, upon the termination of their employment. It aims to provide a safety net and financial security to employees for their long and meritorious service. Reference: Preamble of the Act.",
+    "question_type": "factual",
+    "section_reference": "Preamble",
+    "source_document": "payment_of_gratuity_act_1972",
+    "chunk_number": 1,
+    "review_index": 445,
+    "status": "PENDING"
+  },
+  {
+    "question": "How is the gratuity calculation method different for piece-rated employees compared to monthly-rated employees?",
+    "answer": "For monthly-rated employees, the fifteen days' wages are calculated by dividing the last drawn monthly wages by twenty-six and then multiplying by fifteen. In contrast, for piece-rated employees, their daily wages are computed based on the average of their total wages received over the three months immediately preceding the termination of employment. Importantly, wages paid for any overtime work are excluded from this average calculation for piece-rated employees. Reference: Section 4(2) proviso and explanation of the Act.",
+    "question_type": "comparative",
+    "section_reference": "Section 4(2) proviso and explanation",
+    "source_document": "payment_of_gratuity_act_1972",
+    "chunk_number": 1,
+    "review_index": 460,
+    "status": "PENDING"
+  },
+  {
+    "question": "How can an employee modify their existing nomination for gratuity?",
+    "answer": "An employee is permitted to modify their nomination at any time, subject to certain provisions regarding family members. This is done by providing a written notice to their employer, adhering to the prescribed form and manner. The employer is then responsible for safely keeping this updated nomination. Reference Section 6(5) and 6(7) of the Act.",
+    "question_type": "procedural",
+    "section_reference": "Section 6(5), 6(7)",
+    "source_document": "payment_of_gratuity_act_1972",
+    "chunk_number": 2,
+    "review_index": 475,
+    "status": "PENDING"
+  },
+  {
+    "question": "What is the primary objective of the Equal Remuneration Act, 1976?",
+    "answer": "The main objective of the Equal Remuneration Act, 1976, is to ensure the payment of equal remuneration to men and women workers for the same work or work of a similar nature. It also aims to prevent discrimination on the ground of sex against women in matters of employment. The Act seeks to give effect to Article 39 of the Constitution, which envisages equal pay for equal work for both genders. This is outlined in the Preamble and the Statement of Objects and Reasons of the Act.",
+    "question_type": "factual",
+    "section_reference": "Preamble, Statement of Objects and Reasons",
+    "source_document": "equal_remuneration_act_1976",
+    "chunk_number": 1,
+    "review_index": 490,
+    "status": "PENDING"
+  },
+  {
+    "question": "How are questions regarding whether two or more works are of the same nature or of a similar nature to be resolved?",
+    "answer": "If any dispute or question arises as to whether two or more works are of the same nature or of a similar nature, it must be decided by the authority appointed under Section 7(1) of the Act. This authority is responsible for hearing and deciding claims and complaints related to the Act's contravention. Its determination is crucial for establishing whether the principle of equal remuneration applies in specific employment scenarios. This is specified in Section 7(3) of the Act.",
+    "question_type": "procedural",
+    "section_reference": "Section 7(3)",
+    "source_document": "equal_remuneration_act_1976",
+    "chunk_number": 1,
+    "review_index": 501,
+    "status": "PENDING"
+  },
+  {
+    "question": "What was the previous legislation related to equal remuneration that was repealed by the 1976 Act?",
+    "answer": "The Equal Remuneration Ordinance, 1975 (12 of 1975) was explicitly repealed by the Equal Remuneration Act, 1976. This Act replaced the temporary ordinance with a permanent legislative framework for equal pay. Reference Section 18(1) of the Act.",
+    "question_type": "factual",
+    "section_reference": "Section 18(1)",
+    "source_document": "equal_remuneration_act_1976",
+    "chunk_number": 2,
+    "review_index": 512,
+    "status": "PENDING"
+  },
+  {
+    "question": "What is the primary objective of the Maternity Benefit Act, 1961?",
+    "answer": "The main objectives of the Maternity Benefit Act, 1961, are to provide maternity benefits to women working in certain establishments and to regulate their employment for specific periods before and after childbirth. This ensures that women workers receive financial support and protection during their maternity period. Reference Section 2 of the Act.",
+    "question_type": "factual",
+    "section_reference": "Section 2",
+    "source_document": "maternity_benefit_act_1961",
+    "chunk_number": 1,
+    "review_index": 525,
+    "status": "PENDING"
+  },
+  {
+    "question": "How many weeks of maternity benefit is a woman entitled to under the Act?",
+    "answer": "A woman is entitled to a maximum period of twelve weeks of maternity benefit. Out of this, not more than six weeks shall precede the date of her expected delivery. Reference Section 5 of the Act.",
+    "question_type": "factual",
+    "section_reference": "Section 5",
+    "source_document": "maternity_benefit_act_1961",
+    "chunk_number": 1,
+    "review_index": 535,
+    "status": "PENDING"
+  },
+  {
+    "question": "Can a woman avail additional leave with wages if she suffers from illness related to pregnancy or delivery?",
+    "answer": "Yes, a woman suffering from illness arising out of pregnancy, delivery, premature birth of a child, or miscarriage is entitled to additional leave. This leave, with wages at the maternity benefit rate, can extend for a maximum period of one month beyond the standard period of absence allowed under the Act. Reference Section 10 of the Act.",
+    "question_type": "factual",
+    "section_reference": "Section 10",
+    "source_document": "maternity_benefit_act_1961",
+    "chunk_number": 1,
+    "review_index": 545,
+    "status": "PENDING"
+  }
+]
