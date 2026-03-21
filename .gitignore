@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Model weights (too large for git)
+*.bin
+*.safetensors
+*.gguf
+models/
+
+# Data (large files)
+data/raw/*.pdf
+data/processed/*.txt
+data/dataset/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# W&B
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
