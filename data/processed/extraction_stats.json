@@ -1,0 +1,56 @@
+[
+  {
+    "filename": "companies_act_2013.pdf",
+    "pages": 370,
+    "words": 206340,
+    "txt_file": "companies_act_2013.txt"
+  },
+  {
+    "filename": "equal_remuneration_act_1976.pdf",
+    "pages": 9,
+    "words": 3573,
+    "txt_file": "equal_remuneration_act_1976.txt"
+  },
+  {
+    "filename": "esi_act_1948.pdf",
+    "pages": 118,
+    "words": 30379,
+    "txt_file": "esi_act_1948.txt"
+  },
+  {
+    "filename": "industrial_disputes_act_1947.pdf",
+    "pages": 53,
+    "words": 23804,
+    "txt_file": "industrial_disputes_act_1947.txt"
+  },
+  {
+    "filename": "maternity_benefit_act_1961.pdf",
+    "pages": 4,
+    "words": 2022,
+    "txt_file": "maternity_benefit_act_1961.txt"
+  },
+  {
+    "filename": "minimum_wages_act_1948.pdf",
+    "pages": 50,
+    "words": 14719,
+    "txt_file": "minimum_wages_act_1948.txt"
+  },
+  {
+    "filename": "payment_of_gratuity_act_1972.pdf",
+    "pages": 22,
+    "words": 5892,
+    "txt_file": "payment_of_gratuity_act_1972.txt"
+  },
+  {
+    "filename": "payment_of_wages_act_1936.pdf",
+    "pages": 19,
+    "words": 10892,
+    "txt_file": "payment_of_wages_act_1936.txt"
+  },
+  {
+    "filename": "posh_act_2013.pdf",
+    "pages": 14,
+    "words": 6358,
+    "txt_file": "posh_act_2013.txt"
+  }
+]
