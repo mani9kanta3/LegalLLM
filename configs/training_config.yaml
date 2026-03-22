@@ -1,0 +1,98 @@
+# LegalLLM Training Configuration
+# All hyperparameters for QLoRA fine-tuning in one place
+# Usage: Referenced by training scripts and documented in README
+
+# === Model ===
+model:
+  name: "mistralai/Mistral-7B-Instruct-v0.3"
+  type: "causal_lm"
+  parameters: 7_248_023_552  # 7.2B total
+
+# === Quantization (the "Q" in QLoRA) ===
+quantization:
+  load_in_4bit: true
+  quant_type: "nf4"              # Normal Float 4-bit — best for LLMs
+  double_quant: true             # Quantize the quantization constants
+  compute_dtype: "bfloat16"      # Calculations in bf16 for accuracy
+
+# === LoRA Configuration ===
+lora:
+  r: 16                          # Rank — controls adapter capacity
+  alpha: 32                      # Scaling factor (alpha/r = 2x)
+  dropout: 0.05                  # Prevents overfitting
+  target_modules:                # Attention layers that get adapters
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+  bias: "none"
+  task_type: "CAUSAL_LM"
+  trainable_params: 13_631_488   # 13.6M trainable (0.19% of total)
+
+# === Dataset ===
+dataset:
+  total_pairs: 555
+  train_size: 444
+  val_size: 55
+  test_size: 56
+  split_ratios: [0.8, 0.1, 0.1]
+  stratified_by: "source_document"
+  documents: 9
+  question_types:
+    factual: 287
+    procedural: 165
+    comparative: 103
+
+# === Training Arguments ===
+training:
+  num_epochs: 3
+  per_device_batch_size: 4
+  gradient_accumulation_steps: 4   # Effective batch = 16
+  learning_rate: 2.0e-4
+  lr_scheduler: "cosine"
+  warmup_ratio: 0.03
+  max_seq_length: 2048
+  bf16: true
+  gradient_checkpointing: true
+  optimizer: "paged_adamw_8bit"
+  max_grad_norm: 0.3
+  weight_decay: 0.001
+  seed: 42
+
+# === Evaluation During Training ===
+eval:
+  strategy: "steps"
+  eval_steps: 25
+  save_steps: 25
+  save_total_limit: 3
+  metric_for_best_model: "eval_loss"
+  load_best_model_at_end: true
+
+# === Training Results (Run 1) ===
+results:
+  run_name: "mistral-7b-qlora-run1"
+  best_checkpoint: "checkpoint-50"
+  training_loss:
+    step_25: 1.6483
+    step_50: 1.3055
+    step_75: 1.1330
+  validation_loss:
+    step_25: 1.5898
+    step_50: 1.4734    # Best
+    step_75: 1.4833
+  adapter_size_mb: 56.2
+  gpu_memory_gb: 4.5
+  hardware: "Google Colab T4 (15GB VRAM)"
+  wandb_url: "https://wandb.ai/pudimanikanta3-/LegalLLM"
+
+# === Hyperparameter Experiments (planned) ===
+experiments:
+  - name: "lora_rank_comparison"
+    variable: "lora.r"
+    values: [8, 16, 32]
+  - name: "learning_rate_comparison"
+    variable: "training.learning_rate"
+    values: [1.0e-4, 2.0e-4, 5.0e-4]
+  - name: "epoch_comparison"
+    variable: "training.num_epochs"
+    values: [3, 5]
