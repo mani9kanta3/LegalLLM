@@ -1,0 +1,22 @@
+{
+  "rouge_l": {
+    "base": 0.208,
+    "finetuned": 0.3206,
+    "improvement": "+54.1%"
+  },
+  "bertscore": {
+    "base": 0.8545,
+    "finetuned": 0.8908,
+    "improvement": "+4.2%"
+  },
+  "llm_judge": {
+    "base": {
+      "faithfulness": 1.5535714285714286,
+      "relevance": 3.0
+    },
+    "finetuned": {
+      "faithfulness": 1.625,
+      "relevance": 4.285714285714286
+    }
+  }
+}
